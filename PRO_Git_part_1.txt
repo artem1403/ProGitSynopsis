@@ -1,0 +1,11 @@
+PRO Git (конспект)
+
+config
+	--system - для всех пользователей на этом ПК
+	--global - для текущего пользователя на этом ПК
+	без директивы - для текущего проекта (файл будет сохраняться в .git/config)
+	git config --list - посмотреть все существующие настройки конфига
+
+Первые настройки
+	$ git config --global user.name "John Doe"
+	$ git config --global user.email johndoe@example.com
